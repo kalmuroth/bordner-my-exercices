@@ -17,4 +17,3 @@ export function my_display_alpha_reverse(){
   }
   return string;
 }
-console.log(my_display_alpha_reverse());
