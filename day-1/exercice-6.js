@@ -5,3 +5,4 @@ export function my_length_array(arr){
       }
     return len;
 }
+
