@@ -5,11 +5,13 @@ export function my_display_combv2(){
         for (let x = 0 ; x<=9; x++){
             for (let j = 0 ; j<=9; j++){
                 if (j != x && x != i && i != j){
-                    array[count] = [`${i} ${x} ${j}`] 
+                    array[count] = `${i} ${x} ${j}`
                     count++
+                }
+                if (j == 9 && x == 8 && i == 7){
+                    return array
                 }
              }  
         }
     }
-    return array
 }
